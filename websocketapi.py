@@ -9,9 +9,9 @@ from pprint import pprint, pformat
 import websockets
 from websockets import ConnectionClosed
 
-from logger import get_logger
 from defines import ASK, BID
 from orderbook import OrderBook
+from utils.logger import get_logger
 
 LOG = get_logger('WebSocketAPI', 'wss.log')
 
